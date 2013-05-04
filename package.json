@@ -1,6 +1,6 @@
 {
   "name": "element-splice",
-  "description": "",
+  "description": "Array#splice for HTMLElement",
   "version": "1.0.0",
   "homepage": "https://github.com/dominictarr/element-splice",
   "repository": {
