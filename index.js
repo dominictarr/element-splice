@@ -12,8 +12,8 @@ module.exports = function (el, splice) {
   var deletes = splice.shift()
   var deleted = []
   while(deletes-- && el.children.length - index >= 0) {
-    var deleted.push(el.children[index])
-     el.removeChild(el.children[index])
+    deleted.push(el.children[index])
+    el.removeChild(el.children[index])
   }
   while(splice.length)
     insert(el, splice.pop(), index)
